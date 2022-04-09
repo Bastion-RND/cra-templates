@@ -25,13 +25,16 @@ yarn create react-app bastion-app-name --template bast-typescript
 
 ## File architecture
 
-Recommended file architecture is below.
+Recommended file architecture:
 
 - assets
 - components
+- contexts
 - i18n
 - services
 - utils
+
+### Example
 
 ```text
 ── /src
@@ -57,6 +60,7 @@ Recommended file architecture is below.
     │              ├── NavBar.ts
     │              ├── NavBar.module.scss
     │              └── NavBar.test.ts
+    ├── /contexts
     ├── /i18n
     ├── /services
     │   ├── /LocalStorage
