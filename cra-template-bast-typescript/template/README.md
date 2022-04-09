@@ -39,59 +39,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## File architecture
-
-About file architecture click [here](https://www.taniarascia.com/react-architecture-directory-structure/).
-
-- assets
-- components
-- i18n
-- services
-- utils
-
-```text
-── /src
-    ├── /assets
-    ├── /components
-    │   ├── /forms
-    │   │   ├── /TextField
-    │   │   │   ├── TextField.ts
-    │   │   │   ├── TextField.module.scss
-    │   │   │   └── TextField.test.ts
-    │   │   ├── /Select
-    │   │   │   ├── Select.ts
-    │   │   │   ├── Select.styles.ts
-    │   │   │   └── Select.test.ts
-    │   │   └── index.ts
-    │   ├── /routing
-    │   │   └── /PrivateRoute
-    │   │       ├── /PrivateRoute.ts
-    │   │       └── /PrivateRoute.test.ts
-    │   └── /layout
-    │       └── /navigation
-    │           └── /NavBar
-    │              ├── NavBar.ts
-    │              ├── NavBar.module.scss
-    │              └── NavBar.test.ts
-    ├── /i18n
-    ├── /services
-    │   ├── /LocalStorage
-    │   │   ├── LocalStorage.ts
-    │   │   └── LocalStorage.test.ts
-    │   └── index.ts
-    ├── /utils
-    │   ├── /constants
-    │   │   └── countries.ts
-    │   └── /helpers
-    │       ├── validation.ts
-    │       ├── currency.ts
-    │       └── array.ts
-    ├── App.module.scss
-    ├── App.test.tsx
-    ├── App.tsx
-    └── index.tsx
-```
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
