@@ -1,1 +1,1 @@
-# Rect custom templates for create-react-app by Bastion
+# React templates for create-react-app by Bastion
