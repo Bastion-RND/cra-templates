@@ -1,51 +1,23 @@
+import { FC } from "react";
 import logo from "./assets/img/logo.svg";
 import styles from "./App.module.scss";
+import Link from "./components/link/Link";
 
-function App() {
-  return (
-    <div className={styles.App}>
-      <header className={styles.Header}>
-        <img src={logo} className={styles.Logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>
-          <a
-            className={styles.Link}
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>,
-          <a
-            className={styles.Link}
-            href="https://www.typescriptlang.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            TypeScript
-          </a>,
-          <a
-            className={styles.Link}
-            href="https://sass-lang.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Sass
-          </a>
-        </p>
-        <a
-          className={styles.Link}
-          href="https://bast.ru"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bastion
-        </a>
-      </header>
-    </div>
-  );
-}
+const App: FC = () => (
+  <div className={styles.App}>
+    <header className={styles.Header}>
+      <img src={logo} className={styles.Logo} alt="logo" />
+      <p>
+        Edit <code>src/App.tsx</code> and save to reload.
+      </p>
+      <p>
+        <Link href="https://reactjs.org" title="React" />,
+        <Link href="https://www.typescriptlang.org" title="TypeScript" />,
+        <Link href="https://sass-lang.com" title="Sass" />,
+      </p>
+      <Link href="https://bast.ru" title="Bastion" />
+    </header>
+  </div>
+);
 
 export default App;
