@@ -1,6 +1,4 @@
 import { StrictMode } from "react";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import { createRoot } from "react-dom/client";
 import "./assets/styles/index.scss";
 import App from "./App";
