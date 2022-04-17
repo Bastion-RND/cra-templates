@@ -1,26 +1,26 @@
-# React template for create-react-app with typescript
+# Base React template for create-react-app
 
-This is the TypeScript template for [Create React App](https://github.com/facebook/create-react-app) created by Bastion team.
+This is the template for [Create React App](https://github.com/facebook/create-react-app) created by Bastion team.
 
 ## Stack
 
 - eslint (Airbnb)
 - prettier
 - typescript
-- sass
+- sass (scss)
 
 ## Install
 
-To use this template, add `--template bast-typescript` when creating a new app.
+To use this template, add `--template bast` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app bastion-app-name --template bast-typescript
+npx create-react-app bastion-app-name --template bast
 
 # or
 
-yarn create react-app bastion-app-name --template bast-typescript
+yarn create react-app bastion-app-name --template bast
 ```
 
 ## File architecture

@@ -1,12 +1,13 @@
 {
-  "name": "cra-template-bast-typescript",
-  "version": "0.3.0",
+  "name": "cra-template-bast",
+  "version": "0.1.0",
   "keywords": [
     "react",
     "create-react-app",
     "template",
     "typescript",
     "sass",
+    "scss",
     "eslint",
     "prettier"
   ],
@@ -14,7 +15,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Bastion-RND/cra-templates.git",
-    "directory": "cra-template-bast-typescript"
+    "directory": "cra-template-bast"
   },
   "license": "MIT",
   "engines": {
