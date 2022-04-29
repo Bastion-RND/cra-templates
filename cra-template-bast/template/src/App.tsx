@@ -1,7 +1,8 @@
 import { FC } from "react";
+
 import logo from "./assets/img/logo.svg";
 import styles from "./App.module.scss";
-import Link from "./components/link/Link";
+import Link from "./components/Link/Link";
 
 const App: FC = () => (
   <div className={styles.App}>
