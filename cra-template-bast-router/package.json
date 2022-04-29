@@ -1,0 +1,32 @@
+{
+  "name": "cra-template-bast-router",
+  "version": "0.2.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "sass",
+    "scss",
+    "eslint",
+    "prettier",
+    "react-router-dom"
+  ],
+  "description": "The base React template for create-react-app by Bastion with TypeScript, Sass, EsLint, Prettier, React Router.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bastion-RND/cra-templates.git",
+    "directory": "cra-template-bast-router"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "bugs": {
+    "url": "https://github.com/Bastion-RND/cra-templates/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
