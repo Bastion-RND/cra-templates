@@ -11,16 +11,16 @@ This is the template for [Create React App](https://github.com/facebook/create-r
 
 ## Install
 
-To use this template, add `--template bast-router` when creating a new app.
+To use this template, add `--template @bs-solutions/bast-router` when creating a new app.
 
 For example:
 
 ```sh
-npx create-react-app bastion-app-name --template bast-router
+npx create-react-app bastion-app-name --template @bs-solutions/bast-router
 
 # or
 
-yarn create react-app bastion-app-name --template bast-router
+yarn create react-app bastion-app-name --template @bs-solutions/bast-router
 ```
 
 ## File architecture

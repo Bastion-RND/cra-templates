@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-bast",
-  "version": "0.2.1",
+  "name": "@bs-solutions/cra-template-bast",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",

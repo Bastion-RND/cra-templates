@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-bast-router",
-  "version": "0.2.1",
+  "name": "@bs-solutions/cra-template-bast-router",
+  "version": "1.0.1",
   "keywords": [
     "react",
     "create-react-app",
@@ -10,6 +10,7 @@
     "scss",
     "eslint",
     "prettier",
+    "react-router",
     "react-router-dom"
   ],
   "description": "The base React template for create-react-app by Bastion with TypeScript, Sass, EsLint, Prettier, React Router.",
